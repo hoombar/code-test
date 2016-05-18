@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+
+              android:orientation="vertical"
+
+
+                tools:context="practical.test.com.myapplication.MainActivityFragment"
+                tools:showIn="@layout/activity_main">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="200dp"
+        android:layout_height="150px"
+        android:text="should only display at design time"
+        />
+
+    <Button
+        android:id="@+id/btn_run"
+        android:layout_width="100dp"
+        android:layout_height="100px"
+        android:text="go"
+        />
+
+    <View
+        android:id="@+id/blinking_canvas"
+        android:background="#00FFFFFF"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+</LinearLayout>
